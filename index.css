@@ -15,7 +15,7 @@
   float: left;
   color: Red;
   text-align: right;
-  padding: 14px 16px;
+  padding: 10px 12px;
   text-decoration: none;
   font-size: 17px;
   font-family:  Roboto, Arial, sans-serif;
@@ -26,15 +26,29 @@
   color: black;
 }
 
-.nav-bar a.active {
+#nav-bar a.active {
   background-color:#333 ;
   color:white;
 }
 
 #video{
 
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   display: block;
   width: 500px;
+}
+
+#sidebar{
+ position: right;
+ align-self: flex-end;
+width: 20px;
+align-items: right;
+padding-right: 5px 5px;
+
+}
+
+
+#sidebar li{
+
 }
