@@ -36,7 +36,7 @@
   text-align: left;
   margin: 0 auto;
   display: block;
-  width: 500px;
+
 }
 
 #layout{
@@ -49,10 +49,13 @@
 }
 #sidebar,.content{position: absolute; }
   #sidebar{
-    background: #C6DD7D;
-    top :10px;
-    left:10px;
-    width:70px;
+background: #C6DD7D;
+
+float: right;
+
+width: 270px;
+
+
   }
   #content{
     background: #F4ECCE;
