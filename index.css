@@ -39,16 +39,27 @@
   width: 500px;
 }
 
-#sidebar{
- position: right;
- align-self: flex-end;
-width: 20px;
-align-items: right;
-padding-right: 5px 5px;
-
+#layout{
+  width:100px;
+  margin:auto;
+  height:100px;
+  position:relative;
+  float:left;
+  background:rgba(119,115,115,0.58);
 }
-
-
-#sidebar li{
-
-}
+#sidebar,.content{position: absolute; }
+  #sidebar{
+    background: #C6DD7D;
+    top :10px;
+    left:10px;
+    width:70px;
+  }
+  #content{
+    background: #F4ECCE;
+    top :35px;
+    left:10px;
+    width:70px
+  }
+   #li {
+    list-style-type: none;
+   }
