@@ -6,7 +6,7 @@ background-color: #FE4C4C;
 #nav-bar{
    display:flex;
    overflow: auto;
-   align-items: center;
+   align-items:center;
    background-color: #EDEDEE;
    position: fixed;
    top: 0;
@@ -50,16 +50,18 @@ float: right;
 background-color: white;
 }
 #video{
-  padding-top: 150px;
-  width: 50%;
-  text-align: left;
-  margin-left: inherit;
-  display: block;
-  align-self: right;
+  padding-top: 90px;
+  padding-left: 100px;
+padding-right: 90px;
+padding-bottom: 100px;
+
+
 }
 #sidebar{
-padding-top: 134px;
+padding-top: 250px;
 width: 300px;
 
   }
-  #li {    list-style-type: none;   }
+  #li {
+  align-items:center;
+  list-style-type: none;   }
